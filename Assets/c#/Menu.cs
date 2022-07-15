@@ -44,7 +44,7 @@ public class Menu : MonoBehaviour
         var coin = new GameObject("Coin");
         coin.transform.SetParent(transform);
         coin.AddComponent<Image>().sprite = _coin.Icon;
-        coin.GetComponent<RectTransform>().sizeDelta = new Vector2(30, 30);
+        //coin.GetComponent<RectTransform>().sizeDelta = new Vector2(30, 30);
         coin.GetComponent<RectTransform>().anchoredPosition = GetCoinStartPos();
 
         coin.transform.DOMove(_counter.transform.position, 1).OnComplete(() => SetCounter(coin));
