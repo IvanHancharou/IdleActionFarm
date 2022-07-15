@@ -15,4 +15,4 @@ MonoBehaviour:
   _pauseBetweenPackSold: 0.2
   _pauseBetweenCoinAppear: 1
   _playerSpeed: 3
-  _stackLimit: 30
+  _stackLimit: 40
